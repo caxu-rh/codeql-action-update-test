@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@76621b61decf072c1cee8dd1ce2d2a82d33c17ed # v3.29.8
+        uses: github/codeql-action/init@96f518a34f7a870018057716cc4d7a5c014bd61c # v3.29.10
