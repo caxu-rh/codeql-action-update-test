@@ -1,0 +1,13 @@
+name: "Example CodeQL Workflow"
+
+on:
+  workflow_dispatch: {}
+
+permissions: {}
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@76621b61decf072c1cee8dd1ce2d2a82d33c17ed # v3.29.8
